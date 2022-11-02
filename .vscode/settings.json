@@ -120,14 +120,17 @@
 	},
 	"[tex]": {
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
-		"editor.tabSize": 4
+		"editor.tabSize": 4,
+		"editor.wordWrap": "on"
 	},
 	"[latex]": {
 		"editor.suggest.snippetsPreventQuickSuggestions": false,
-		"editor.tabSize": 4
+		"editor.tabSize": 4,
+		"editor.wordWrap": "on"
 	},
 	"[bibtex]": {
-		"editor.tabSize": 4
+		"editor.tabSize": 4,
+		"editor.wordWrap": "on"
 	},
 	// ---------------- Code Run Settings ----------------
 	"code-runner.runInTerminal": true,
