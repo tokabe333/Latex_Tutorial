@@ -206,10 +206,10 @@
 	// ---------------- Latex Workshop ----------------
 	"latex-workshop.latex.recipes": [
 		{
-			"name": "platex",
+			"name": "uplatex",
 			"tools": [
 				"uplatex",
-				//"pbibtex",
+				// "pbibtex",
 				// "uplatex",
 				// "uplatex",
 				"dvipdfmx"
