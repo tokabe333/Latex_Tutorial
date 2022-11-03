@@ -1,0 +1,27 @@
+\documentclass[a4paper, 11pt, uplatex]{jsarticle}
+% \usepackage{amsmath, amssymb}
+\usepackage{amsmath, newtxmath}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[abs]{overpic}
+\usepackage[dvipdfmx]{pict2e}
+
+\begin{document}
+
+\title{図表の配置}
+\author{ほげほげおじさん}
+\maketitle
+
+
+--- ソースファイル例 --- \\
+ここで図\ref{figA}を見てください．
+図で赤く示されているのが．．．
+\begin{figure}
+	\centering
+	\includegraphics[scale=0.5]{apple.png}
+	\caption{あっぷる}
+	\label{figA}
+\end{figure}
+
+
+
+\end{document}
