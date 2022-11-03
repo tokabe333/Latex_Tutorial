@@ -1,6 +1,7 @@
 \documentclass[a4paper, 11pt, uplatex]{jsarticle}
 % \usepackage{amsmath, amssymb}
 \usepackage{amsmath, newtxmath}
+\usepackage[dvipdfmx]{graphicx}
 
 \begin{document}
 
@@ -8,12 +9,18 @@
 \author{ほげほげおじさん}
 \maketitle
 
-\begin{equation*}
-	A = \begin{pmatrix}
-		a_{11} & \ldots & a_{1n} \\
-		\vdots & \ddots & \vdots \\
-		a_{m1} & \ldots & a_{mn} \\
-	\end{pmatrix}
-\end{equation*}
+まだあげ初めし前髪の/りんごのもとに見えしとき/前にさしたる花櫛の/花ある君と思ひけり
+\begin{figure}
+	\begin{minipage}[b]{0.45 \linewidth}
+		\centering
+		\includegraphics[width=2cm]{apple.png}
+		\caption{りんごの図.png}
+	\end{minipage}
+	\begin{minipage}[b]{0.45 \linewidth}
+		\centering
+		\includegraphics[width=3cm]{apple.pdf}
+		\caption{りんごの図.pdf}
+	\end{minipage}
+\end{figure}
 
 \end{document}
