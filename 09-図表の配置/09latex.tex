@@ -1,9 +1,10 @@
 \documentclass[a4paper, 11pt, uplatex]{jsarticle}
 % \usepackage{amsmath, amssymb}
 \usepackage{amsmath, newtxmath}
-\usepackage[dvipdfmx]{graphicx}
+\usepackage[dvipdfmx]{graphicx, color}
 \usepackage[abs]{overpic}
 \usepackage[dvipdfmx]{pict2e}
+\definecolor{spot}{cmyk}{1,0,0,0}
 
 \begin{document}
 
@@ -20,6 +21,19 @@
 	\includegraphics[scale=0.5]{apple.png}
 	\caption{あっぷる}
 	\label{figA}
+\end{figure}
+
+
+
+\begin{figure}
+	\centering
+	\begin{overpic}[scale=0.5, pagebox=cropbox, clip, grid]{apple.png}
+		\color{spot} \linethickness{3pt}
+		\put(100,80){\vector(-1, 0){25}}
+		\put(155,75){\Huge \sffamily Byte!}
+	\end{overpic}
+	\caption{あっぷる}
+	\label{figB}
 \end{figure}
 
 
