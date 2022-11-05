@@ -1,0 +1,35 @@
+\documentclass[a4paper, 11pt, uplatex]{jsarticle}
+% \usepackage{amsmath, amssymb}
+\usepackage{amsmath, newtxmath}
+\usepackage[dvipdfmx]{graphicx, color}
+\usepackage[abs]{overpic}
+\usepackage[dvipdfmx]{pict2e}
+\usepackage{url}
+\usepackage{makeidx}
+
+\makeindex
+\definecolor{spot}{cmyk}{1,0,0,0}
+
+\begin{document}
+
+\title{ヘッダーとフッター}
+\author{ほげほげおじさん}
+\maketitle
+
+
+If you want convert DVI file to PDF file.
+using dvipdfmx \index{dvipdfmx} is the greatest choice.
+
+免疫 \index{めんえき@免疫}とは，例ギアをおそれずに言えば，体内に入ってきた最近や
+ウイルス(非自己 \index{ひじこ@非自己} \footnote{抗原 \index{こうげん@抗原}と総称される．})
+といった事故にとって危険な要素を徹底的に排除しようと試みる際に，脳以上に主導権を握ってる．
+生体防御機構 \index{せいたいぼうぎょきこう@生体防御機構}である．
+
+
+\printindex
+
+\bibliographystyle{jplain}
+\nocite{*}
+\bibliography{bibliography.bib}
+
+\end{document}
