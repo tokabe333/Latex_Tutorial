@@ -212,7 +212,7 @@
 			"name": "uplatex",
 			"tools": [
 				"uplatex",
-				"pbibtex",
+				"upbibtex",
 				"uplatex",
 				"uplatex",
 				"dvipdfmx"
