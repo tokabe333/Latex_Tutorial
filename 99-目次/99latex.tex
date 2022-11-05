@@ -1,0 +1,61 @@
+\documentclass[a4paper, 11pt, uplatex]{jsarticle}
+
+% ------- package list ------
+% \usepackage{amsmath, amssymb}
+\usepackage{amsmath, newtxmath}
+\usepackage[dvipdfmx]{graphicx, color}
+\usepackage[abs]{overpic}
+\usepackage[dvipdfmx]{pict2e}
+\usepackage{url}
+\usepackage[dvipdfmx]{hyperref}
+\usepackage{pxjahyper}
+
+
+\definecolor{spot}{cmyk}{1,0,0,0}
+\newcommand{\diff}{\mathrm{d}}
+\newcommand{\myfig}[4][width=5cm]{%
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[#1]{#2}
+	\caption{#3} \label{fig:#4}
+\end{figure}%
+}
+\setcounter{secnumdepth}{5}
+
+\begin{document}
+
+
+\title{マクロの作成}
+\author{ほげほげおじさん}
+\maketitle
+
+% 目次の出力
+\tableofcontents
+\clearpage
+
+\part{ほげほげ}
+最近はどうのこうのがんばってんね
+\section{説の名前}
+あした天気になれ
+\subsection{小説の名前}
+
+
+\[
+	F = - \frac{\mathrm{d}U}{\mathrm{d}x}
+\]
+
+\subsubsection{小小節の名前}
+\paragraph{段落の名前}
+\subparagraph{商談楽の名前}
+\part{部の名前2}
+\section{説の名前2}
+yakiu
+
+\clearpage
+
+
+\bibliographystyle{jplain}
+\nocite{*}
+\bibliography{bibliography.bib}
+
+\end{document}
