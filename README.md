@@ -1,6 +1,6 @@
 # Latex_Tutorial
  Latex勉強用リポジトリ
-
+preview → ctrl alt v
 
 ## Tex Environments
 
