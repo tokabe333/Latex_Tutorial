@@ -1,0 +1,45 @@
+\documentclass[a4paper, 11pt, uplatex]{jsarticle}
+% \usepackage{amsmath, amssymb}
+\usepackage{amsmath, newtxmath}
+\usepackage[dvipdfmx]{graphicx, color}
+\usepackage[abs]{overpic}
+\usepackage[dvipdfmx]{pict2e}
+\usepackage{url}
+
+\definecolor{spot}{cmyk}{1,0,0,0}
+
+\newcommand{\myname}{山田太郎}
+\newcommand{\diff}{\mathrm{d}}
+\newcommand{\combination}[2]{{}_{#1} \mathrm{c}_{#2}}
+\newcommand{\myfig}[4][width=5cm]{%
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[#1]{#2}
+	\caption{#3} \label{fig:#4}
+\end{figure}%
+}
+
+
+\begin{document}
+
+\title{マクロの作成}
+\author{ほげほげおじさん}
+\maketitle
+
+\[
+	F = - \frac{\mathrm{d}U}{\mathrm{d}x}
+\]
+
+\[
+	\combination{n}{k} = \frac{n!}{k! (n-k)!}
+\]
+
+\myfig{apple.png}{りんごの図}{apple}
+\myfig[width=3cm]{apple.png}{りんごの図2}{apple2}
+
+
+\bibliographystyle{jplain}
+\nocite{*}
+\bibliography{bibliography.bib}
+
+\end{document}
